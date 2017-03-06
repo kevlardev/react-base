@@ -28,7 +28,7 @@ const setUpSocket = (store: Object) => {
   socket.on(IO_DISCONNECT, () => {
     console.log('[socket.io] Disconnected.');
   });
-}
+};
 /* eslint-enable no-console */
 
 export default setUpSocket;

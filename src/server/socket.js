@@ -30,7 +30,7 @@ const setUpSocket = (io: Object) => {
       console.log('[socket.io] A client disconnected.');
     });
   });
-}
+};
 /* eslint-enable no-console */
 
 export default setUpSocket;
