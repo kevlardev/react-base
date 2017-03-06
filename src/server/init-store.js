@@ -17,6 +17,6 @@ const initStore = (plainPartialState: ?Object) => {
 
   return createStore(combineReducers({ hello: helloReducer }),
     preloadedState, applyMiddleware(thunkMiddleware));
-}
+};
 
 export default initStore;

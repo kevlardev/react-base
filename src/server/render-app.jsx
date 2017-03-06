@@ -38,6 +38,6 @@ const renderApp = (location: string, plainPartialState: ?Object, routerContext: 
       </body>
     </html>`
   );
-}
+};
 
 export default renderApp;
